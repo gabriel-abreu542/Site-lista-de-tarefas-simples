@@ -1,0 +1,40 @@
+.dark-theme{
+    --bg: #000022;
+    --fontcolor: #ffffff;
+    --remove_font: #ffffff;
+    --remove_bg: #990000;
+    --remove_hover: #440000;
+}
+
+.light-theme{
+    --bg: #00ffff;
+    --fontcolor: #000000;
+    --remove_font: #ffffff;
+    --remove_bg: #ff0000;
+    --remove_hover: #770000;
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
+
+.remove_btn{
+    position: relative;
+    margin-left: 10px;
+    background-color: var(--remove_bg);;
+    color: var(--remove_font);;
+    border: none;
+}
+
+#btn_apagar{
+    display: none;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--fontcolor);
+}
